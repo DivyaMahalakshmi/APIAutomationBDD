@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [testSuite]" parallel="tests">
+  <test thread-count="2" verbose="10" name="MyRestAssuredProject(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.rest.test.EmployeeDataCreate">
+        <methods>
+          <include name="createEmployeeData"/>
+        </methods>
+      </class> <!-- com.qa.rest.test.EmployeeDataCreate -->
+    </classes>
+  </test> <!-- MyRestAssuredProject(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

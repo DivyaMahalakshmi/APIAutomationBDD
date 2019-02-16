@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44678" started-at="2019-02-16T15:05:02Z" finished-at="2019-02-16T15:05:46Z">
+    <groups>
+    </groups>
+    <test name="GetAllEmployeeRecords" duration-ms="19721" started-at="2019-02-16T15:05:02Z" finished-at="2019-02-16T15:05:22Z">
+      <class name="com.qa.rest.test.GetAllEmployeesTest">
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:com.qa.rest.test.GetAllEmployeesTest@3fee9989]" name="setBaseURI" is-config="true" duration-ms="1337" started-at="2019-02-16T15:05:02Z" description="Setting the base URI to retrieve all the employee records" finished-at="2019-02-16T15:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURI -->
+        <test-method status="PASS" signature="getEmployeeDataPositiveFlow()[pri:1, instance:com.qa.rest.test.GetAllEmployeesTest@3fee9989]" name="getEmployeeDataPositiveFlow" duration-ms="17549" started-at="2019-02-16T15:05:03Z" description="The test method retrives all the employee Records from the Base URI" finished-at="2019-02-16T15:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDataPositiveFlow -->
+        <test-method status="PASS" signature="getEmployeeDataNegativeFlow()[pri:2, instance:com.qa.rest.test.GetAllEmployeesTest@3fee9989]" name="getEmployeeDataNegativeFlow" duration-ms="806" started-at="2019-02-16T15:05:21Z" description="The test method is a negative case, given a wrong URI" finished-at="2019-02-16T15:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDataNegativeFlow -->
+      </class> <!-- com.qa.rest.test.GetAllEmployeesTest -->
+    </test> <!-- GetAllEmployeeRecords -->
+    <test name="CreateNewlEmployeeRecords" duration-ms="8214" started-at="2019-02-16T15:05:22Z" finished-at="2019-02-16T15:05:30Z">
+      <class name="com.qa.rest.test.CreateNewEmployeeTest">
+        <test-method status="PASS" signature="createNewEmpRecordPositiveFlow()[pri:1, instance:com.qa.rest.test.CreateNewEmployeeTest@55d56113]" name="createNewEmpRecordPositiveFlow" duration-ms="5203" started-at="2019-02-16T15:05:22Z" description="The method creates a new record of employee, accessing data from  external excel sheet" finished-at="2019-02-16T15:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmpRecordPositiveFlow -->
+        <test-method status="PASS" signature="createNewEmpRecordNegativeFlow()[pri:2, instance:com.qa.rest.test.CreateNewEmployeeTest@55d56113]" name="createNewEmpRecordNegativeFlow" duration-ms="3000" started-at="2019-02-16T15:05:27Z" description="Negative method of employee record not created when proper parameters are not passed" finished-at="2019-02-16T15:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmpRecordNegativeFlow -->
+      </class> <!-- com.qa.rest.test.CreateNewEmployeeTest -->
+    </test> <!-- CreateNewlEmployeeRecords -->
+    <test name="RetreiveEmployeeRecordwithID" duration-ms="6810" started-at="2019-02-16T15:05:30Z" finished-at="2019-02-16T15:05:37Z">
+      <class name="com.qa.rest.test.GetEmployeeRecordByIDTest">
+        <test-method status="PASS" signature="getEmployeeDataWithIDPositiveFlow()[pri:1, instance:com.qa.rest.test.GetEmployeeRecordByIDTest@60c6f5b]" name="getEmployeeDataWithIDPositiveFlow" duration-ms="3256" started-at="2019-02-16T15:05:30Z" description="The Test method is to reteive employee record when the unique ID is presented" finished-at="2019-02-16T15:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDataWithIDPositiveFlow -->
+        <test-method status="PASS" signature="setURIwithEmpID()[pri:0, instance:com.qa.rest.test.GetEmployeeRecordByIDTest@60c6f5b]" name="setURIwithEmpID" is-config="true" duration-ms="0" started-at="2019-02-16T15:05:30Z" description="This is to establish connections with the data source" finished-at="2019-02-16T15:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURIwithEmpID -->
+        <test-method status="PASS" signature="getEmployeeDataWithIDNegativeFLow()[pri:2, instance:com.qa.rest.test.GetEmployeeRecordByIDTest@60c6f5b]" name="getEmployeeDataWithIDNegativeFLow" duration-ms="3547" started-at="2019-02-16T15:05:33Z" description="This is negative case where Employee details are not retrived when invalid paramaters are passed" finished-at="2019-02-16T15:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDataWithIDNegativeFLow -->
+      </class> <!-- com.qa.rest.test.GetEmployeeRecordByIDTest -->
+    </test> <!-- RetreiveEmployeeRecordwithID -->
+    <test name="UpdatelEmployeeRecords" duration-ms="6163" started-at="2019-02-16T15:05:37Z" finished-at="2019-02-16T15:05:43Z">
+      <class name="com.qa.rest.test.UpdateEmployeeTest">
+        <test-method status="PASS" signature="setURIwithEmpID()[pri:0, instance:com.qa.rest.test.UpdateEmployeeTest@3327bd23]" name="setURIwithEmpID" is-config="true" duration-ms="0" started-at="2019-02-16T15:05:37Z" description="This is to establish connections with the data source" finished-at="2019-02-16T15:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURIwithEmpID -->
+        <test-method status="PASS" signature="updateEmployeeDataPositiveFlow()[pri:1, instance:com.qa.rest.test.UpdateEmployeeTest@3327bd23]" name="updateEmployeeDataPositiveFlow" duration-ms="3280" started-at="2019-02-16T15:05:37Z" description="The test method is to update Employee Record" finished-at="2019-02-16T15:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeDataPositiveFlow -->
+        <test-method status="PASS" signature="updateEmployeeDataNegativeFlow()[pri:2, instance:com.qa.rest.test.UpdateEmployeeTest@3327bd23]" name="updateEmployeeDataNegativeFlow" duration-ms="2873" started-at="2019-02-16T15:05:40Z" description="Negative flow where Employee Record is not updated when invalid parameters are passed" finished-at="2019-02-16T15:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeDataNegativeFlow -->
+      </class> <!-- com.qa.rest.test.UpdateEmployeeTest -->
+    </test> <!-- UpdatelEmployeeRecords -->
+    <test name="DeleteEmployeeRecords" duration-ms="3714" started-at="2019-02-16T15:05:43Z" finished-at="2019-02-16T15:05:46Z">
+      <class name="com.qa.rest.test.DeleteEmployeeTest">
+        <test-method status="PASS" signature="setURIwithEmpID()[pri:0, instance:com.qa.rest.test.DeleteEmployeeTest@5383967b]" name="setURIwithEmpID" is-config="true" duration-ms="0" started-at="2019-02-16T15:05:43Z" description="This is to establish connections with the data source" finished-at="2019-02-16T15:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURIwithEmpID -->
+        <test-method status="PASS" signature="deleteDataPositiveFLow()[pri:1, instance:com.qa.rest.test.DeleteEmployeeTest@5383967b]" name="deleteDataPositiveFLow" duration-ms="786" started-at="2019-02-16T15:05:43Z" description="The method is used to delete an employee Record" finished-at="2019-02-16T15:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDataPositiveFLow -->
+        <test-method status="PASS" signature="deleteData()[pri:2, instance:com.qa.rest.test.DeleteEmployeeTest@5383967b]" name="deleteData" duration-ms="2913" started-at="2019-02-16T15:05:44Z" description="This is negative flow where employee Record is not deleted when invalid parameters are passed" finished-at="2019-02-16T15:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+      </class> <!-- com.qa.rest.test.DeleteEmployeeTest -->
+    </test> <!-- DeleteEmployeeRecords -->
+  </suite> <!-- Suite -->
+</testng-results>

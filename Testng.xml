@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+    <test name="GetAllEmployeeRecords">
+        <classes>      
+            <class name="com.qa.rest.test.GetAllEmployeesTest"/>
+       </classes>
+    </test>
+    <test name="CreateNewlEmployeeRecords">
+        <classes>      
+            <class name="com.qa.rest.test.CreateNewEmployeeTest"/>
+       </classes>
+    </test>
+    <test name="RetreiveEmployeeRecordwithID">
+        <classes>      
+            <class name="com.qa.rest.test.GetEmployeeRecordByIDTest"/>
+       </classes>
+    </test>
+    <test name="UpdatelEmployeeRecords">
+        <classes>      
+            <class name="com.qa.rest.test.UpdateEmployeeTest"/>
+       </classes>
+    </test>
+    <test name="DeleteEmployeeRecords">
+        <classes>      
+            <class name="com.qa.rest.test.DeleteEmployeeTest"/>
+       </classes>
+    </test>
+
+</suite> <!-- Suite -->
